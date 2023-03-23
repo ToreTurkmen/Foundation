@@ -10,3 +10,9 @@ body{
 h1{
   text-align: center;
 }
+#main-page{
+  background-color: brown;
+}
+.grayed{
+  color: brown;
+}

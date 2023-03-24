@@ -16,3 +16,15 @@ h1{
 .grayed{
   color: brown;
 }
+footer{
+  background-color: yellow;
+}
+input[type=text] {
+  background-color: blue;
+}
+input[type*=pas] {
+  background-color: brown;
+}
+input[type$=n] {
+  background-color: rgb(171, 146, 146);
+}

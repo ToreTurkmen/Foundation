@@ -7,12 +7,30 @@ body{
   font-size: 20px;
   font-family: Arial, Helvetica;
 }
-section > h1{
+section:first-child> h1{
   color: red;
+}
+section:nth-child(2)> h1{
+  color: rgb(0, 255, 34);
+}
+section:nth-child(even)> h1{
+  color: rgb(255, 221, 0);
+}
+section:nth-child(odd)> h1{
+  color: rgb(191, 16, 107);
+}
+section:nth-child(2n+1)> h1{
+  color: rgb(16, 150, 191);
+}
+section:nth-child(2n+2)> h1{
+  color: rgb(57, 16, 191);
 }
 article a {
   color: green;
 }
 article p + a {
   color: blue;
+}
+article p + a:hover {
+  color: rgb(255, 0, 0);
 }

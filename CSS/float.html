@@ -9,6 +9,7 @@
     .container{
       border: 1px solid red;
       padding: 10px;
+      
     }
     .box{
       background: blue;
@@ -18,15 +19,25 @@
       height: 100px;
     }
     .float{
-      float: none;
+      float: left;
     }
     a{
       background: yellow;
     }
+    .clearflix:after{
+      content: ".";
+      visibility: hidden;
+      display: block;
+      height: 0%;
+      clear: both;
+    }
+    /* h1{
+      clear: both;
+    } */
   </style>
 </head>
 <body>
-  <div class="container">
+  <div class="container clearflix">
     <div class="box float">Box</div>
     <div class="box float">Box</div>
     <div class="box float">Box</div>
@@ -34,7 +45,8 @@
     <div class="box float">Box</div>
     <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, impedit?</span>
     <a href="#">Link</a>
+    
   </div>
-
+  <h1>Title</h1>
 </body>
 </html>

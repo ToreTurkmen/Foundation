@@ -41,10 +41,10 @@ a:hover, a:visited, a:active{
 }
 /* Header*/
 .page-header{
-
+height: auto;
 }
 .page-header > div{
-
+height: auto;
 }
 .page-header nav{
   float: right;

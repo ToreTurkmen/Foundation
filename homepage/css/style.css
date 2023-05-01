@@ -118,6 +118,34 @@ font-size: 1.4em;
   width: 75%;
   line-height: 1.3;
 }
+
+/* portfolio */
+
+.portfolio{
+  position: relative;
+  /* background-color: yellow; */
+
+
+}
+.portfolio:before{
+  content: " ";
+  display: block;
+  height: 30px;
+  margin-bottom: 2em;
+}
+.portfolio .title-wrapper{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.portfolio h2{
+  display: inline;
+  background-color: #fff;
+  padding: 0.8em;
+  font-weight: bold;
+}
 /*Footer*/
 .page-footer:before {
   content: " ";

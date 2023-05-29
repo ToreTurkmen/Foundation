@@ -35,11 +35,21 @@
   // }
   // };
 
+  // var user = {
+  //   login: "String",
+  //   password: "String",
+  //   firstName: "String",
+  //   lastName: "String",
+  //   // user ["firstName"]
+  //   "full name":""
+  // }
   var user = {
-    login: "String",
-    password: "String",
-    firstName: "String",
-    lastName: "String",
-    // user ["firstName"]
-    "full name":""
+    login: "",
+    password: "",
+    firstName: "",
+    lastName: "",
+    getFullName: function () { 
+      return this.firstName + " " + this.lastName;
+    //   user.getFullName() 
+  }
   }

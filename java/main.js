@@ -11,14 +11,35 @@
     
   // }
 
-  var firstName = 'Tore';
-  function accessGlobalScope () {
-    firstName = "Name has been changed";
-  }
-  function localVariableFunction () {
-    var lastName;
-    lastName = "Last name has been changed";
-  }
-  function localVariable (){
-    assdDevProperty = 
+  // var firstName = 'Tore';
+  // function accessGlobalScope () {
+  //   firstName = "Name has been changed";
+  // }
+  // function localVariableFunction () {
+  //   var lastName;
+  //   lastName = "Last name has been changed";
+  // }
+  // function localVariable (){
+  //   assdDevProperty = "this is a local variable"
+  // }
+
+  // var object;
+  // object = {
+  // name: "tore",
+  // lastName: "Turkmen",
+  // age: 40,
+  // // object.age
+  // getFullName: function () { 
+  //   return "tore Turkmen";
+  //   // object.getFullName();
+  // }
+  // };
+
+  var user = {
+    login: "String",
+    password: "String",
+    firstName: "String",
+    lastName: "String",
+    // user ["firstName"]
+    "full name":""
   }

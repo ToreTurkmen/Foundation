@@ -43,13 +43,23 @@
   //   // user ["firstName"]
   //   "full name":""
   // }
+  // var user = {
+  //   login: "",
+  //   password: "",
+  //   firstName: "",
+  //   lastName: "",
+  //   getFullName: function () { 
+  //     return this.firstName + " " + this.lastName;
+  //   //   user.getFullName() 
+  // }
+  // }
   var user = {
-    login: "",
-    password: "",
-    firstName: "",
-    lastName: "",
-    getFullName: function () { 
-      return this.firstName + " " + this.lastName;
-    //   user.getFullName() 
+    firstName: "Tore",
+    lastName: "Turkmen"
   }
-  }
+  var referenceToUser = user;
+  user.lastName = "Beg";
+  referenceToUser.firstName = "Merw";
+
+  function getLastname () { return "some return value";}
+  var referenceToFunction = getLastname;

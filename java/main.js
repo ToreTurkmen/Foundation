@@ -53,13 +53,43 @@
   //   //   user.getFullName() 
   // }
   // }
-  var user = {
-    firstName: "Tore",
-    lastName: "Turkmen"
-  }
-  var referenceToUser = user;
-  user.lastName = "Beg";
-  referenceToUser.firstName = "Merw";
+  // var user = {
+  //   firstName: "Tore",
+  //   lastName: "Turkmen"
+  // }
+  // var referenceToUser = user;
+  // user.lastName = "Beg";
+  // referenceToUser.firstName = "Merw";
 
-  function getLastname () { return "some return value";}
-  var referenceToFunction = getLastname;
+  // function getLastname () { return "some return value";}
+  // var referenceToFunction = getLastname;
+
+  // function Car() {
+  //   this.first = 5;
+  //   this.last = "Coron";
+  // }
+  // var luxuryCar = new Car();
+
+  // Car.prototype.author = "Tore";
+
+  function Car(brand, year) {
+    this.brand = brand;
+    this.year = year;
+    this.engine = "stopped";
+  }
+
+  Car.prototype.start = function() {
+    this.engine = "started";
+  };
+
+  Car.prototype.stop = function() {
+    this.engine = "stopped";
+  };
+
+
+  var oldCar = new Car("Toyota",2022);
+  var newCar = new Car("Ferrari", 2023);
+
+  function update(){
+    this.test = 1;
+  }

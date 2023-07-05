@@ -88,7 +88,7 @@
 
 
   var oldCar = new Car("Toyota",2022);
-  var newCar = new Car("Ferrari", 2023);
+  var newCar = new Car("Opel", 2023);
 
   function update(){
     this.test = 1;

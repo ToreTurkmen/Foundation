@@ -72,24 +72,32 @@
 
   // Car.prototype.author = "Tore";
 
-  function Car(brand, year) {
-    this.brand = brand;
-    this.year = year;
-    this.engine = "stopped";
-  }
+  // function Car(brand, year) {
+  //   this.brand = brand;
+  //   this.year = year;
+  //   this.engine = "stopped";
+  // }
 
-  Car.prototype.start = function() {
-    this.engine = "started";
-  };
+  // Car.prototype.start = function() {
+  //   this.engine = "started";
+  // };
 
-  Car.prototype.stop = function() {
-    this.engine = "stopped";
-  };
+  // Car.prototype.stop = function() {
+  //   this.engine = "stopped";
+  // };
 
 
-  var oldCar = new Car("Toyota",2022);
-  var newCar = new Car("Opel", 2023);
+  // var oldCar = new Car("Toyota",2022);
+  // var newCar = new Car("Opel", 2023);
 
-  function update(){
-    this.test = 1;
-  }
+  // function update(){
+  //   this.test = 1;
+  // }
+
+  //string
+
+  var Car = "this a new car";
+
+  // Car.length
+  // Car.toUpperCase();
+  Car.charAt(0).toUpperCase();

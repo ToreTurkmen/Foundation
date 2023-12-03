@@ -96,8 +96,10 @@
 
   //string
 
-  var Car = "this a new car";
+  // var Car = "this a new car";
 
-  // Car.length
-  // Car.toUpperCase();
-  Car.charAt(0).toUpperCase();
+  // // Car.length
+  // // Car.toUpperCase();
+  // Car.charAt(0).toUpperCase();
+
+ car.toUpperCase()
